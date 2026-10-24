@@ -1,0 +1,463 @@
+[
+  {
+    "id": "00001",
+    "nick": "admin",
+    "password": "admin123",
+    "fullName": "Yuriy Moshenets",
+    "registeredAt": "2025-06-12",
+    "email": "ukamotors67@gmail.com",
+    "phone": "+49 151 2345678",
+    "telegram": "https://t.me/johann",
+    "avatarUrl": "/avatars/de1.jpg",
+    "invitedBy": null,
+    "balance": 1200,
+    "referrals": ["00002","00003","00004","00005","00006","00008","00009","00010","00011","00012"],
+    "topups": [
+      { "date": "2024-01-10", "amount": 300, "method": "paypal" }
+    ],
+    "earnedFromRefs": [
+      { "refId": "00002", "refTopup": 300, "amount": 30, "date": "2024-01-11", "percent": 10 },
+      { "refId": "00008", "refTopup": 150, "amount": 15, "date": "2024-02-15", "percent": 10 },
+      { "refId": "00010", "refTopup": 200, "amount": 20, "date": "2024-03-10", "percent": 10 }
+    ],
+    "status": "admin",
+    "nameType": { "variant": "Vip", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00002",
+    "nick": "johnny",
+    "password": "pass123",
+    "fullName": "John Peterson",
+    "registeredAt": "2023-07-01",
+    "email": "john.peterson@example.com",
+    "phone": "+1 202 555 1234",
+    "telegram": "https://t.me/johnny",
+    "avatarUrl": "/avatars/us1.jpg",
+    "invitedBy": "00001",
+    "balance": 450,
+    "referrals": ["00007","00013","00014","00015","00016","00017"],
+    "topups": [
+      { "date": "2024-01-12", "amount": 150, "method": "paypal" },
+      { "date": "2024-02-20", "amount": 200, "method": "card" }
+    ],
+    "earnedFromRefs": [
+      { "refId": "00013", "refTopup": 100, "amount": 15, "date": "2024-02-25", "percent": 15 },
+      { "refId": "00015", "refTopup": 50, "amount": 7.5, "date": "2024-03-05", "percent": 15 }
+    ],
+    "status": "partner",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-bounce", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00003",
+    "nick": "pierre",
+    "password": "pass777",
+    "fullName": "Pierre Dubois",
+    "registeredAt": "2023-08-14",
+    "email": "pierre.dubois@example.fr",
+    "phone": "+33 6 12 34 56 78",
+    "telegram": "https://t.me/pierre",
+    "avatarUrl": "/avatars/fr1.jpg",
+    "invitedBy": "00001",
+    "balance": 230,
+    "referrals": ["00018","00019"],
+    "topups": [
+      { "date": "2024-01-20", "amount": 100, "method": "paypal" }
+    ],
+    "earnedFromRefs": [
+      { "refId": "00018", "refTopup": 80, "amount": 8, "date": "2024-02-10", "percent": 10 }
+    ],
+    "status": "partner",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-pulse", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00004",
+    "nick": "oleksiy",
+    "password": "qwerty",
+    "fullName": "Олексій Кравченко",
+    "registeredAt": "2024-01-05",
+    "email": "oleksiy@example.ua",
+    "phone": "+380671234567",
+    "telegram": "https://t.me/kravchenko",
+    "avatarUrl": "/avatars/ua1.jpg",
+    "invitedBy": "00001",
+    "balance": 150,
+    "referrals": ["00020"],
+    "topups": [
+      { "date": "2024-01-15", "amount": 100, "method": "card" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "TrgtSlf", "animation": "", "enabled": false, "customCss": "" }
+  },
+  {
+    "id": "00005",
+    "nick": "maria",
+    "password": "1111",
+    "fullName": "Maria Schmidt",
+    "registeredAt": "2023-11-27",
+    "email": "maria.schmidt@example.de",
+    "phone": "+49 151 888888",
+    "telegram": "https://t.me/maria",
+    "avatarUrl": "/avatars/de2.jpg",
+    "invitedBy": "00001",
+    "balance": 300,
+    "referrals": ["00021","00022"],
+    "topups": [
+      { "date": "2024-01-30", "amount": 200, "method": "paypal" }
+    ],
+    "earnedFromRefs": [
+      { "refId": "00021", "refTopup": 100, "amount": 10, "date": "2024-03-01", "percent": 10 }
+    ],
+    "status": "partner",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-glow", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00006",
+    "nick": "robert",
+    "password": "robo",
+    "fullName": "Robert King",
+    "registeredAt": "2023-09-16",
+    "email": "robert.king@example.com",
+    "phone": "+1 303 555 2311",
+    "telegram": "https://t.me/roboking",
+    "avatarUrl": "/avatars/us2.jpg",
+    "invitedBy": "00001",
+    "balance": 700,
+    "referrals": ["00023"],
+    "topups": [
+      { "date": "2024-02-05", "amount": 300, "method": "card" },
+      { "date": "2024-03-15", "amount": 200, "method": "paypal" }
+    ],
+    "earnedFromRefs": [
+      { "refId": "00023", "refTopup": 150, "amount": 22.5, "date": "2024-03-20", "percent": 15 }
+    ],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-bounce", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00007",
+    "nick": "maxim",
+    "password": "maxmax",
+    "fullName": "Максим Гаврилюк",
+    "registeredAt": "2024-02-02",
+    "email": "maxim@example.ua",
+    "phone": "+380502223333",
+    "telegram": "https://t.me/maxim",
+    "avatarUrl": "/avatars/ua2.jpg",
+    "invitedBy": "00002",
+    "balance": 120,
+    "referrals": [],
+    "topups": [],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-pulse", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00008",
+    "nick": "anna",
+    "password": "anna123",
+    "fullName": "Anna Müller",
+    "registeredAt": "2024-01-08",
+    "email": "anna.mueller@example.de",
+    "phone": "+49 152 3334444",
+    "telegram": "https://t.me/annam",
+    "avatarUrl": "/avatars/de3.jpg",
+    "invitedBy": "00001",
+    "balance": 250,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-02-14", "amount": 150, "method": "paypal" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-glow", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00009",
+    "nick": "david",
+    "password": "david777",
+    "fullName": "David Wilson",
+    "registeredAt": "2024-01-22",
+    "email": "david.wilson@example.com",
+    "phone": "+1 404 555 6677",
+    "telegram": "https://t.me/davidw",
+    "avatarUrl": "/avatars/us3.jpg",
+    "invitedBy": "00001",
+    "balance": 180,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-02-01", "amount": 100, "method": "card" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-bounce", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00010",
+    "nick": "sophie",
+    "password": "sophie11",
+    "fullName": "Sophie Martin",
+    "registeredAt": "2024-02-10",
+    "email": "sophie.martin@example.fr",
+    "phone": "+33 7 55 66 77 88",
+    "telegram": "https://t.me/sophiem",
+    "avatarUrl": "/avatars/fr2.jpg",
+    "invitedBy": "00001",
+    "balance": 320,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-03-09", "amount": 200, "method": "paypal" }
+    ],
+    "earnedFromRefs": [],
+    "status": "partner",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-pulse", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00011",
+    "nick": "thomas",
+    "password": "tom1234",
+    "fullName": "Thomas Schmidt",
+    "registeredAt": "2024-02-18",
+    "email": "thomas.schmidt@example.de",
+    "phone": "+49 163 7778888",
+    "telegram": "https://t.me/thomass",
+    "avatarUrl": "/avatars/de4.jpg",
+    "invitedBy": "00001",
+    "balance": 90,
+    "referrals": [],
+    "topups": [],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "TrgtSlf", "animation": "", "enabled": false, "customCss": "" }
+  },
+  {
+    "id": "00012",
+    "nick": "olga",
+    "password": "olga2024",
+    "fullName": "Ольга Шевченко",
+    "registeredAt": "2024-03-01",
+    "email": "olga@example.ua",
+    "phone": "+380673334455",
+    "telegram": "https://t.me/olgas",
+    "avatarUrl": "/avatars/ua3.jpg",
+    "invitedBy": "00001",
+    "balance": 200,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-03-02", "amount": 100, "method": "card" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-glow", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00013",
+    "nick": "michael",
+    "password": "mike88",
+    "fullName": "Michael Brown",
+    "registeredAt": "2024-02-22",
+    "email": "michael.brown@example.com",
+    "phone": "+1 305 555 9988",
+    "telegram": "https://t.me/michaelb",
+    "avatarUrl": "/avatars/us4.jpg",
+    "invitedBy": "00002",
+    "balance": 110,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-02-24", "amount": 100, "method": "paypal" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-pulse", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00014",
+    "nick": "elena",
+    "password": "lena123",
+    "fullName": "Elena Rossi",
+    "registeredAt": "2024-02-25",
+    "email": "elena.rossi@example.it",
+    "phone": "+39 345 678 9012",
+    "telegram": "https://t.me/elenar",
+    "avatarUrl": "/avatars/it1.jpg",
+    "invitedBy": "00002",
+    "balance": 75,
+    "referrals": [],
+    "topups": [],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-bounce", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00015",
+    "nick": "andrey",
+    "password": "andrey55",
+    "fullName": "Андрій Мельник",
+    "registeredAt": "2024-03-03",
+    "email": "andrey@example.ua",
+    "phone": "+380504445555",
+    "telegram": "https://t.me/andreym",
+    "avatarUrl": "/avatars/ua4.jpg",
+    "invitedBy": "00002",
+    "balance": 60,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-03-04", "amount": 50, "method": "paypal" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-glow", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00016",
+    "nick": "sara",
+    "password": "sara2024",
+    "fullName": "Sara Johnson",
+    "registeredAt": "2024-03-08",
+    "email": "sara.johnson@example.com",
+    "phone": "+1 212 555 4321",
+    "telegram": "https://t.me/saraj",
+    "avatarUrl": "/avatars/us5.jpg",
+    "invitedBy": "00002",
+    "balance": 140,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-03-09", "amount": 100, "method": "card" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-pulse", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00017",
+    "nick": "julien",
+    "password": "julien77",
+    "fullName": "Julien Moreau",
+    "registeredAt": "2024-03-12",
+    "email": "julien.moreau@example.fr",
+    "phone": "+33 6 77 88 99 00",
+    "telegram": "https://t.me/julienm",
+    "avatarUrl": "/avatars/fr3.jpg",
+    "invitedBy": "00002",
+    "balance": 95,
+    "referrals": [],
+    "topups": [],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-bounce", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00018",
+    "nick": "lucas",
+    "password": "lucas123",
+    "fullName": "Lucas Weber",
+    "registeredAt": "2024-02-08",
+    "email": "lucas.weber@example.de",
+    "phone": "+49 157 9990000",
+    "telegram": "https://t.me/lucasw",
+    "avatarUrl": "/avatars/de5.jpg",
+    "invitedBy": "00003",
+    "balance": 85,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-02-09", "amount": 80, "method": "paypal" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-glow", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00019",
+    "nick": "claire",
+    "password": "claire99",
+    "fullName": "Claire Bernard",
+    "registeredAt": "2024-02-12",
+    "email": "claire.bernard@example.fr",
+    "phone": "+33 6 44 55 66 77",
+    "telegram": "https://t.me/claireb",
+    "avatarUrl": "/avatars/fr4.jpg",
+    "invitedBy": "00003",
+    "balance": 120,
+    "referrals": [],
+    "topups": [],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-pulse", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00020",
+    "nick": "iryna",
+    "password": "iryna22",
+    "fullName": "Ірина Коваленко",
+    "registeredAt": "2024-02-20",
+    "email": "iryna@example.ua",
+    "phone": "+380505556666",
+    "telegram": "https://t.me/irynak",
+    "avatarUrl": "/avatars/ua5.jpg",
+    "invitedBy": "00004",
+    "balance": 65,
+    "referrals": [],
+    "topups": [],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-bounce", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00021",
+    "nick": "klaus",
+    "password": "klaus33",
+    "fullName": "Klaus Wagner",
+    "registeredAt": "2024-02-25",
+    "email": "klaus.wagner@example.de",
+    "phone": "+49 159 1112222",
+    "telegram": "https://t.me/klausw",
+    "avatarUrl": "/avatars/de6.jpg",
+    "invitedBy": "00005",
+    "balance": 105,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-02-28", "amount": 100, "method": "paypal" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-glow", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00022",
+    "nick": "natalia",
+    "password": "natalia44",
+    "fullName": "Natalia Kowalski",
+    "registeredAt": "2024-03-05",
+    "email": "natalia.kowalski@example.pl",
+    "phone": "+48 600 700 800",
+    "telegram": "https://t.me/nataliak",
+    "avatarUrl": "/avatars/pl1.jpg",
+    "invitedBy": "00005",
+    "balance": 80,
+    "referrals": [],
+    "topups": [],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-pulse", "enabled": true, "customCss": "" }
+  },
+  {
+    "id": "00023",
+    "nick": "alex",
+    "password": "alex123",
+    "fullName": "Alex Turner",
+    "registeredAt": "2024-03-18",
+    "email": "alex.turner@example.com",
+    "phone": "+1 415 555 7890",
+    "telegram": "https://t.me/alext",
+    "avatarUrl": "/avatars/us6.jpg",
+    "invitedBy": "00006",
+    "balance": 155,
+    "referrals": [],
+    "topups": [
+      { "date": "2024-03-19", "amount": 150, "method": "card" }
+    ],
+    "earnedFromRefs": [],
+    "status": "user",
+    "nameType": { "variant": "AnimationNameText", "animation": "text-bounce", "enabled": true, "customCss": "" }
+  }
+]
