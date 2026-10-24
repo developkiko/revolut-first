@@ -1,0 +1,526 @@
+{
+  "header": {
+    "logo": "RevolutTIME",
+    "nav": {
+      "home": "Home",
+      "about": "About us",
+      "contacts": "Contacts"
+    },
+    "lang-sw": "Language",
+    "menu-sw": {
+      "open": "Close",
+      "close": "Open",
+      "end": "menu"
+    }
+  },
+  "footer": {
+    "copy": "RevolutTIME 2025 - all rights reserved",
+    "nav": {
+      "reg": "Sign up",
+      "about": "About us",
+      "contacts": "Contacts"
+    },
+    "text": "Payment methods"
+  },
+  "home": {
+    "meta": {
+      "title": "RevolutTIME - health, travel and income ecosystem",
+      "descr": "Health, travel and income ecosystem"
+    },
+    "hero": {
+      "headline": "RevolutTIME - health, travel and income ecosystem",
+      "subheadline": "We bring together health innovation, a transparent referral program, sports and medical tourism, and partner offers for our community."
+    },
+    "page": {
+      "heading": "Health, travel and income ecosystem",
+      "subheading": "Become part of a community that brings together health, income and new opportunities.",
+      "cta": "Leave a request"
+    },
+    "blocks": {
+      "clinic": {
+        "title": "Health innovation",
+        "description": "We are developing molecular hydrogen products that help support energy, recovery and overall wellbeing.",
+        "cta": "Learn more"
+      },
+      "referral": {
+        "title": "Referral program",
+        "description": "A fair and transparent earning model: recommend the product, build your network and receive stable income.",
+        "cta": "Join"
+      },
+      "startup": {
+        "title": "Nature-Based Healing Retreat",
+        "description": "We curate routes for recovery, natural therapeutic programs and comfortable wellness travel abroad.",
+        "cta": "Leave a request"
+      },
+      "investment": {
+        "title": "Effervescent Hydrogen Tablet",
+        "description": "A dedicated page about composition, absorption, comparison with pharmacy magnesium forms and post-intake effects.",
+        "cta": "Open page"
+      },
+      "travel": {
+        "title": "Sports tourism",
+        "description": "We organize active trips, marathons, hiking and sports events for people who choose movement and health.",
+        "cta": "Explore"
+      }
+    },
+    "diagram": {
+      "clinic": "Clinic",
+      "athlete": "Athlete",
+      "partners": "Partners",
+      "investment": "Tablets",
+      "innovation": "Innovation"
+    },
+    "presentation": {
+      "title": "Short RevolutTIME presentation",
+      "subtitle": "RevolutTIME is:",
+      "items": {
+        "item1": {
+          "title": "1) Health",
+          "description": "Innovative hydrogen products for energy, recovery and better wellbeing."
+        },
+        "item2": {
+          "title": "2) Income",
+          "description": "A simple and transparent referral program. You recommend and you earn."
+        },
+        "item3": {
+          "title": "3) Travel",
+          "description": "Sports and healing tourism: active trips, recovery, treatment and strong destinations."
+        },
+        "item4": {
+          "title": "4) Partner bonuses",
+          "description": "Discounts and special conditions from partner businesses for all participants."
+        },
+        "item5": {
+          "title": "5) Community",
+          "description": "People who choose health, growth and new opportunities."
+        }
+      }
+    },
+    "tablets": {
+      "title": "Magnesium tablets",
+      "description": "A dedicated page with a breakdown of composition, bioavailability, taste and comparison with pharmacy magnesium forms.",
+      "cta": "Open page"
+    },
+    "join": {
+      "title": "Join RevolutTIME",
+      "subtitle": "Membership price: 599 €",
+      "body": [
+        "Membership can be paid in parts at 100€ per month.",
+        "RevolutTIME is a community of people who choose health, freedom and forward movement.",
+        "We create a space where every member gets access to innovative products, travel, education and earning opportunities.",
+        "If the idea of growing together with a strong team resonates with you, join us. RevolutTIME is not just a project. It is a platform where each person can create their own result.",
+        "If you want to be part of a strong and growing community, join."
+      ],
+      "form_title": "Leave a request"
+    }
+  },
+  "about": {
+    "meta": {
+      "title": "About us",
+      "descr": "RevolutTIME - a new generation platform"
+    },
+    "page": {
+      "opportunities": "Career opportunities",
+      "package": "Package",
+      "income": "Income",
+      "requirements": "Requirements",
+      "mission": {
+        "title": "Our mission",
+        "health": {
+          "title": "Health",
+          "desc": "Hydrogen technologies for extending active longevity and improving the quality of life"
+        },
+        "finance": {
+          "title": "Finance",
+          "desc": "Stable earnings through a referral system and investment opportunities"
+        },
+        "innovation": {
+          "title": "Development",
+          "desc": "Supporting startups and creating an environment for the implementation of innovative ideas"
+        }
+      },
+      "structure": {
+        "title": "Multi-level development structure",
+        "level_a": "Level A01-A03",
+        "level_a_desc": "Starting positions with basic capabilities and training",
+        "level_b": "Level B01-B02",
+        "level_b_desc": "Active participation in the referral program and projects",
+        "level_c": "Level C01-C02",
+        "level_c_desc": "Team management and access to premium capabilities",
+        "level_d": "Level D01-D02",
+        "level_d_desc": "Top management with maximum privileges and income"
+      },
+      "partner_a": {
+        "title": "Level A Partner",
+        "package": "Starting package: Training + basic bonuses",
+        "income": "from $500/month",
+        "requirements": "Activity in social networks",
+        "benefit1": "Access to the hydrogen clinic with a 20% discount",
+        "benefit2": "Participation in the 1st level referral program",
+        "benefit3": "Basic travel offers"
+      },
+      "manager_b": {
+        "title": "Level B manager",
+        "package": "Advanced features",
+        "income": "from $2000/month",
+        "requirements": "Team of 5 people",
+        "benefit1": "Full access to the hydrogen clinic",
+        "benefit2": "2nd level referral program",
+        "benefit3": "Premium travel and sporting events",
+        "benefit4": "Participation in the startup selection"
+      }
+    }
+  },
+  "contacts": {
+    "meta": {
+      "title": "Contacts",
+      "descr": "Contact us"
+    },
+    "page": {
+      "contact_info": "Contact information",
+      "phone": "Phone:",
+      "form_title": "Write to us",
+      "form": {
+        "name": "Name",
+        "name_placeholder": "Enter your name",
+        "phone": "Phone",
+        "telegram": "Telegram",
+        "message": "Message",
+        "message_placeholder": "Your message...",
+        "submit": "Send",
+        "submit_sent": "Successfully sent!",
+        "submit_sending": "Sending...",
+        "submit_error": "Error",
+        "submit_wait": "Waiting..."
+      }
+    }
+  },
+  "form": {
+    "meta": {
+      "title": "Form",
+      "descr": "Contact form"
+    }
+  },
+  "health_innovation": {
+    "meta": {
+      "title": "Health innovation",
+      "descr": "Modern solutions for recovery, energy and active living"
+    },
+    "page": {
+      "kicker": "Health and recovery",
+      "title": "Health innovation",
+      "subtitle": "Modern solutions for energy, recovery and thoughtful support for an active lifestyle.",
+      "description": "This direction combines a wellness approach, hydrogen-oriented solutions and recovery practices that help people feel stronger in everyday life, sports and travel.",
+      "highlights": {
+        "item1": {
+          "title": "Modern approach",
+          "description": "We bring together solutions that support energy, balance and a more resilient sense of wellbeing."
+        },
+        "item2": {
+          "title": "Recovery without overload",
+          "description": "The focus is on gentle formats that support the body and quality recovery after effort."
+        },
+        "item3": {
+          "title": "For active living",
+          "description": "This direction fits people who combine health, work, travel and personal growth."
+        }
+      },
+      "sections": {
+        "gallery": {
+          "title": "A visual overview of the direction",
+          "description": "A short gallery around health, hydrogen-oriented solutions and the overall wellness approach."
+        },
+        "technology": {
+          "title": "Activity and recovery",
+          "description": "Sport, movement and smart recovery work best when they are connected in one system."
+        }
+      },
+      "cta_title": "Want to learn more about this direction?",
+      "cta_description": "Leave a request and we will help you choose the right participation, recovery or travel format.",
+      "cta_button": "Leave a request"
+    }
+  },
+  "medical_tourism": {
+    "meta": {
+      "title": "Nature-Based Healing Retreat",
+      "descr": "Wellness routes, natural therapeutic programs and restorative travel in strong destinations"
+    },
+    "page": {
+      "kicker": "Wellness and recovery",
+      "title": "Nature-Based Healing Retreat",
+      "subtitle": "We assemble routes where treatment, gentle recovery and quality rest work as one program.",
+      "description": "This direction brings together natural therapeutic practices, restorative journeys and sea-based leisure formats that help reset, strengthen health and go through recovery in a comfortable setting.",
+      "highlights": {
+        "item1": {
+          "title": "Trusted wellness destinations",
+          "description": "We select places where the setting itself supports recovery: water, climate, rhythm and service all contribute to the result."
+        }
+      },
+      "sections": {
+        "sulfur": {
+          "title": "Sulfur-radon baths in Heviz",
+          "description": "Heviz, Hungary. 10 days. Travel, accommodation, breakfast, procedures, sports stretching and daily hydrogen procedures. Departure from Munich, minimum group of 4 people. Price per person: 1300 EUR.",
+          "paragraphs": [
+            "The program in Heviz, Hungary, lasts 10 days and includes travel, accommodation, breakfast, procedures, daily sports stretching and hydrogen procedures every day. Departure is from Munich and the minimum group size is 4 people.",
+            "The tablets are included in the procedure cost 3 times a day. This helps combine hydrogen with the baths and strengthen the effect of sulfur-radon procedures.",
+            "Hydrogen sulfide baths in Heviz hold a special place among Europe's natural therapeutic procedures thanks to the unique composition of the water and the region's mild climate. Lake Heviz is the world's largest thermal lake of volcanic origin, where the water is constantly renewed and enriched with hydrogen sulfide, calcium, magnesium and organic peat compounds. When immersed in this water, hydrogen sulfide penetrates through the skin and activates circulation, improving tissue nourishment and accelerating metabolic processes. This effect helps reduce inflammation, relieve muscle spasms and decrease pain in the joints and spine. The effect is especially noticeable for people with arthrosis, rheumatic conditions, chronic back pain and post-traumatic recovery.",
+            "Hydrogen sulfide baths also have a beneficial effect on the skin: elasticity improves, cell renewal accelerates and visible dermatological issues become less pronounced. Many Heviz guests notice better sleep, lower stress levels and an overall feeling of lightness after several procedures. The gentle warmth of the water dilates blood vessels and improves microcirculation, which supports detoxification and the restoration of normal metabolism. A regular course of procedures provides a lasting result that can remain for several months, and sometimes longer.",
+            "What makes Heviz special is that the healing effect comes not only from the water itself, but from the combination of climate, mineral composition, natural peat and the lake's unique ecosystem. Here a person does not simply undergo treatment, but enters an atmosphere of calm, natural strength and deep recovery. That is why Heviz is considered one of the best places in Europe for rehabilitation, disease prevention and strengthening overall health.",
+            "Price per person: 1300 EUR."
+          ]
+        },
+        "mallorca": {
+          "title": "Mallorca and the Lagoon 400 catamaran",
+          "description": "Price for 4 days: 200 EUR per person per day. Mallorca, Spain.",
+          "paragraphs": [
+            "A restorative Mallorca format with time at sea, a calmer rhythm, solid comfort and a full day on the water.",
+            "According to the Click&Boat listing, this is a 2020 Lagoon 400 catamaran departing from Santa Ponsa in Mallorca. The format is offered with a skipper and suits families, private groups and guests who want a spacious day charter with a calmer travel rhythm.",
+            "On board there is capacity for 11 day guests, 4 cabins, 8 berths and 4 bathrooms. The catamaran is 12.53 meters long and is positioned as a comfort-oriented sailing format with a modern layout, equipped kitchen, generous sun deck and social spaces suitable for a full day at sea.",
+            "The listing also mentions paddle boards, snorkeling equipment, a dinghy with outboard, bath towels and day-charter timing from 10:00 to 19:00. Without including the price, this still creates a strong Mallorca travel product and works naturally inside the healing travel direction of the site."
+          ]
+        }
+      },
+      "cta_title": "Need a healing route?",
+      "cta_description": "Leave a request and we will help choose a trip format for recovery, wellness or a calm route with time at sea.",
+      "cta_button": "Contact us"
+    }
+  },
+  "partner_benefits": {
+    "meta": {
+      "title": "Partner benefits",
+      "descr": "Special offers, privileges and useful conditions for community members"
+    },
+    "page": {
+      "kicker": "Community privileges",
+      "title": "Partner benefits",
+      "subtitle": "Useful offers from RevolutTIME partners for travel, health and everyday decisions.",
+      "description": "We build an ecosystem where community membership creates practical value: special terms, bonuses, access to offers and a convenient way to use partner services.",
+      "highlights": {
+        "item1": {
+          "title": "Real value",
+          "description": "Discounts and bonuses are designed to be useful in everyday life rather than a formal privilege."
+        },
+        "item2": {
+          "title": "Different scenarios",
+          "description": "Partner conditions can be relevant to travel, health and lifestyle services around the ecosystem."
+        },
+        "item3": {
+          "title": "A stronger ecosystem",
+          "description": "The more directions the community includes, the more clear value a participant receives."
+        }
+      },
+      "sections": {
+        "gallery": {
+          "title": "The partner privilege format",
+          "description": "A small gallery about the business environment, closed offers and the member format inside the ecosystem."
+        }
+      },
+      "cta_title": "Want to know which offers are available now?",
+      "cta_description": "Leave a request and we will share the current partner opportunities and participation options.",
+      "cta_button": "Get information"
+    }
+  },
+  "sports_tourism": {
+    "meta": {
+      "title": "Sports tourism",
+      "descr": "Active routes, sports loads and inspiring destinations for a lifestyle built around movement"
+    },
+    "page": {
+      "kicker": "Movement and impressions",
+      "title": "Sports tourism",
+      "subtitle": "Active trips, sports loads and strong destinations for people who choose movement.",
+      "description": "This direction brings together sport, leisure and strong routes. It focuses on destinations where the trip can naturally include training, play, long walks and better physical condition.",
+      "highlights": {
+        "item1": {
+          "title": "Activity and rest",
+          "description": "Trips are built to combine movement, strong emotions, reset and an inspiring environment."
+        },
+        "item2": {
+          "title": "Training inside the route",
+          "description": "Loads, walks and game formats become part of the trip instead of a separate obligation."
+        },
+        "item3": {
+          "title": "Routes with atmosphere",
+          "description": "We focus on places people want to return to for energy, impressions and quality of life."
+        }
+      },
+      "sections": {
+        "cannes": {
+          "title": "Cannes, France",
+          "description": "Travel, accommodation, sports preparation, badminton hall access, yoga lessons and healthy nutrition classes. Departure from Munich, minimum group of 5 people. Price: 600 EUR, meals not included.",
+          "paragraphs": [
+            "The program includes travel, accommodation, sports preparation, badminton hall access, yoga lessons and healthy nutrition classes. Departure is from Munich, the minimum group size is 5 people, the price is 600 EUR, and meals are not included.",
+            "Cannes in summer is a combination of luxury, a mild Mediterranean climate and a festive atmosphere that can be felt in every step along the Croisette. The city turns into a living postcard: the azure sea shines in the sun, the beaches become the main point of attraction and the air is filled with the scent of pine trees and sea breeze. In summer the rhythm of the French Riviera is especially vivid here: calm, yet full of events and emotions.",
+            "The beaches of Cannes are considered among the best on the whole coast: clean, well maintained, with soft golden sand and clear water that warms up to a comfortable temperature. Here you can relax under white umbrellas, try water sports or simply enjoy the warm sun, which leaves the skin looking even and beautiful. In summer the sea is calm, gentle and ideal for families with children or for those who enjoy long swims without waves.",
+            "The city comes alive through festivals, concerts, exhibitions and evening events in the open air. Summer nights in Cannes have their own magic: seaside restaurants fill with music, yachts sparkle with lights and walks along the Croisette turn into small journeys through a world of style and beauty. It is easy to feel like part of the European elite, even if you are simply sitting with a glass of chilled rose and looking at the sea.",
+            "Cannes is also about gastronomy. In summer it is especially pleasant to try fresh seafood, light Mediterranean dishes, seasonal fruits and famous French desserts. Restaurants and cafes offer food that fits hot weather perfectly: light, aromatic and full of flavor.",
+            "For those who enjoy active travel, Cannes opens access to scenic routes, hill walks, trips to the Lerins Islands and sea excursions. In summer nature here is especially vivid: flowers, greenery and turquoise water create the feeling that you are in an ideal place to restore your strength. We also run active leisure formats with sports loads here, combining the atmosphere of the Riviera with movement and good physical tone.",
+            "And of course, Cannes is about atmosphere. In summer it becomes especially warm, light and inspiring. Here you can reset, feel the taste of life, enjoy beauty and allow yourself a little luxury. Cannes is a place people come to for emotions, impressions and the feeling of a true European summer."
+          ]
+        },
+        "canaries": {
+          "title": "Canary Islands",
+          "description": "Travel, accommodation, sports preparation, badminton hall access, yoga lessons and healthy nutrition classes. Departure from Munich, minimum group of 5 people. Price: 700 EUR, meals not included.",
+          "paragraphs": [
+            "The program includes travel, accommodation, sports preparation, badminton hall access, yoga lessons and healthy nutrition classes. Departure is from Munich, the minimum group size is 5 people, the price is 700 EUR, and meals are not included.",
+            "The Canary Islands in summer feel like endless summer itself, when the air is warm, the ocean is alive and nature seems designed to let a person finally exhale and feel free. Volcanic landscapes coexist with golden beaches, green valleys and cliffs dropping into the Atlantic. The Canaries are especially comfortable in summer: there is no exhausting heat, the ocean warms to a pleasant temperature and the soft breeze makes rest feel light and genuinely relaxing.",
+            "Each island feels like a separate world. Tenerife offers a combination of beach leisure and the majestic Teide volcano, which creates a unique microclimate and a special energy. Gran Canaria surprises with variety, from the Maspalomas dunes that look like a small Sahara to cozy bays with turquoise water. Lanzarote is all about almost cosmic landscapes, black beaches and a silence that heals better than any spa. Fuerteventura is paradise for those who love openness, wind, surfing and endless beaches where you can walk for kilometers.",
+            "In summer the Canaries become an ideal place for recovery: the ocean saturates the body with minerals, volcanic sand warms the muscles and the clean air makes breathing feel deep and easy. Fatigue disappears here, sleep normalizes and tension fades away. The islands seem to reset both body and mind. The Atlantic gently tones the body, improves circulation and gives that living energy that is difficult to find in ordinary resorts.",
+            "The Canaries are also about gastronomy: fresh fish, seafood, tropical fruits, light wines and the famous local sauces that make any dish brighter. In summer it is especially pleasant to sit on a terrace by the ocean, listen to the waves and feel time slowing down.",
+            "The atmosphere of the islands is calm, friendly and warm. No one rushes anywhere, and you gradually tune yourself to the same rhythm. The Canaries are a place people travel to for sun, freedom, nature and the feeling that life can be simpler and happier. Daily sports loads and badminton training make this route not just a holiday, but a full recovery and conditioning program."
+          ]
+        }
+      },
+      "cta_title": "Want to join the next route?",
+      "cta_description": "Write to us and we will tell you about the format, upcoming trips and participation terms.",
+      "cta_button": "Send a request"
+    }
+  },
+  "tablets": {
+    "meta": {
+      "title": "Magnesium tablets",
+      "descr": "A practical comparison of the magnesium tablet with pharmacy forms, bioavailability and taste profile"
+    },
+    "page": {
+      "kicker": "Magnesium and absorption",
+      "title": "Magnesium tablets",
+      "subtitle": "A clear explanation of dosage, bioavailability and post-intake sensations without marketing noise.",
+      "description": "This page provides a structured overview of the 0.4 g effervescent tablet with 50 mg of elemental magnesium and how it works: when the tablet is placed in water, magnesium begins to react gently with the acid and releases molecular hydrogen. The hydrogen quickly saturates the water and can interact with the blood, supporting natural recovery processes. Magnesium in citrate form is absorbed easily and supports the heart and nervous system, while the mild organic acid can also support digestion without irritating the stomach. Daily and long-term use of this tablet may contribute to a gradual increase in energy and faster recovery thanks to a stable magnesium supply and lower oxidative stress.",
+      "highlights": {
+        "item1": {
+          "title": "50 mg elemental magnesium",
+          "description": "A practical and safe working range without going into excessive dosage."
+        },
+        "item2": {
+          "title": "Citrate-like form",
+          "description": "Magnesium combined with citric acid effectively behaves like magnesium citrate in the stomach."
+        },
+        "item3": {
+          "title": "Clean composition",
+          "description": "Fast dissolution, fewer unnecessary fillers and a clear absorption logic."
+        }
+      },
+      "comparison_intro": "Comparison with pharmacy forms",
+      "comparison_headers": {
+        "parameter": "Parameter",
+        "own": "Effervescent tablet",
+        "pharmacy": "Pharmacy forms"
+      },
+      "comparison_rows": [
+        {
+          "label": "Elemental magnesium",
+          "own": "50 mg",
+          "pharmacy": "Usually from 10 to 240 mg depending on the form"
+        },
+        {
+          "label": "Bioavailability",
+          "own": "30–40%",
+          "pharmacy": "Roughly 4–50%"
+        },
+        {
+          "label": "Form",
+          "own": "Mg + citric acid, effectively citrate",
+          "pharmacy": "Citrate, oxide, bisglycinate and other forms"
+        },
+        {
+          "label": "Composition purity",
+          "own": "High, with minimal unnecessary additives",
+          "pharmacy": "Often contains stearates, dyes or stabilizers"
+        },
+        {
+          "label": "Absorption speed",
+          "own": "Fast",
+          "pharmacy": "Medium and highly form-dependent"
+        },
+        {
+          "label": "Overall effectiveness",
+          "own": "A solid working form",
+          "pharmacy": "Varies greatly from product to product"
+        }
+      ],
+      "sections": {
+        "dosage": {
+          "title": "Dosage and comparison with pharmacy products",
+          "paragraphs": [
+            "Compared with common pharmacy magnesium products, a 0.4 g tablet with 50 mg of elemental magnesium sits in a very understandable range. It is close to a meaningful magnesium citrate dose, lower than magnesium oxide and usually higher than standard bisglycinate amounts in elemental magnesium terms.",
+            "That makes the formula balanced rather than extreme: not too low to be irrelevant and not unnecessarily heavy in dose. For an adult, one tablet is roughly 15% of the common daily reference, two tablets are around 30%, and four tablets are around 60%."
+          ]
+        },
+        "pricing": {
+          "title": "Partner discount for RevolutTime partners",
+          "note": "",
+          "labels": {
+            "regular_price": "Regular price",
+            "partner_price": "Partner price",
+            "savings": "Savings"
+          },
+          "items": [
+            {
+              "label": "15 pcs",
+              "regular_price": "15 €",
+              "partner_price": "10 €",
+              "savings": "3 €",
+              "discount": "20% discount"
+            },
+            {
+              "label": "30 pcs",
+              "regular_price": "30 €",
+              "partner_price": "25 €",
+              "savings": "5 €",
+              "discount": "17% discount"
+            },
+            {
+              "label": "60 pcs",
+              "regular_price": "60 €",
+              "partner_price": "50 €",
+              "savings": "10 €",
+              "discount": "17% discount"
+            },
+            {
+              "label": "90 pcs",
+              "regular_price": "90 €",
+              "partner_price": "75 €",
+              "savings": "15 €",
+              "discount": "17% discount"
+            },
+            {
+              "label": "120 pcs",
+              "regular_price": "120 €",
+              "partner_price": "100 €",
+              "savings": "20 €",
+              "discount": "17% discount"
+            }
+          ]
+        },
+        "bioavailability": {
+          "title": "Bioavailability and practical effect",
+          "paragraphs": [
+            "Because magnesium is paired with citric acid, the formula effectively works like magnesium citrate once dissolved in the stomach. In practical terms this usually puts absorption in the 30–40% range, which is a good level and clearly stronger than magnesium oxide.",
+            "The formula also benefits from quick dissolution, ionic magnesium delivery and a cleaner composition with fewer unnecessary fillers. From an absorption and formulation perspective, it compares well with many standard pharmacy tablets."
+          ]
+        },
+        "taste": {
+          "title": "Why there is a mild bitterness and why the tongue looks pinker",
+          "paragraphs": [
+            "The mild bitterness is chemically consistent: when magnesium reacts with citric acid, magnesium citrate is formed, and that compound naturally has a slight bitter note. If the effervescent drink is not followed by water, some of the solution stays on the tongue and creates a short bitter-acid aftertaste.",
+            "The pinker tongue is also easy to explain. Citric acid lightly cleans the tongue surface, helps remove a thin layer of coating and increases local microcirculation. Carbon dioxide from the effervescent drink adds a small stimulatory effect, so the tongue can temporarily look brighter and cleaner. That is a normal physiological response rather than irritation."
+          ]
+        },
+        "safety": {
+          "title": "Safety and final conclusion",
+          "paragraphs": [
+            "A slight bitter taste is normal for a magnesium form, and a pink tongue is an expected response to acid and carbonation. If there is no burning sensation, cracking or other pronounced symptoms, this profile is considered safe.",
+            "The overall conclusion is straightforward: this is effectively a clean magnesium citrate-style formula with good bioavailability, fast dissolution and a rational composition. For regular use, it looks like a technically sound and practical product format."
+          ]
+        }
+      },
+      "cta_title": "Need more product details?",
+      "cta_description": "If you want to discuss dosage, use cases or ordering details, leave a request and we will get back to you.",
+      "cta_button": "Leave a request"
+    }
+  },
+  "not_found": {
+    "message": "Oops... you seem to be lost",
+    "button": "Try again"
+  }
+}

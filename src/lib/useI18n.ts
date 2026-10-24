@@ -1,0 +1,3 @@
+'use client'
+import { useEffect, useSyncExternalStore } from 'react';import { loadLocale, subscribeI18n, getLang, t as tBase, type Lang, type TFunction } from './i18n';const getServerSnapshot = () => 'ru' as Lang;
+export function useI18n() {const lang = useSyncExternalStore(subscribeI18n, getLang, getServerSnapshot);useEffect(() => {if (typeof window !== 'undefined') loadLocale(lang).catch(console.error)}, [lang]);const t: TFunction = tBase;return { t, lang }}

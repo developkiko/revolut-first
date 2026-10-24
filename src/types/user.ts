@@ -1,0 +1,2 @@
+export type EarnedRef = {refId: string,refTopup: number,amount: number,date: string,percent: number}
+export type User = {id: string,nick: string,password: string,fullName: string,registeredAt: string,email: string,phone: string,telegram: string,avatarUrl: string,invitedBy: string | null,balance: number,referrals: string[],topups: { date: string; amount: number; method: string }[],earnedFromRefs: EarnedRef[],status: string,nameType: { variant: string; enabled: boolean; animation?: string; customCss: string }}

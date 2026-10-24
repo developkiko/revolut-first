@@ -1,0 +1,10 @@
+'use client'
+import ru from '@/locales/ru.json';import en from '@/locales/en.json';import {TranslationObject} from '@/types/i18n';export type Lang='ru'|'en';export type Translations=typeof ru
+const allLocales:Record<Lang,Translations>={ru,en};let currentLang:Lang='ru';let translations:Translations=allLocales[currentLang];const listeners=new Set<()=>void>()
+export function subscribeI18n(c:()=>void){listeners.add(c);return ()=>listeners.delete(c)}export function getLang():Lang{if(typeof window==='undefined')return currentLang;return(localStorage.getItem('lang')as Lang)||currentLang}
+export function setLang(l:Lang){currentLang=l;translations=allLocales[l];if(typeof window!=='undefined')localStorage.setItem('lang',l);listeners.forEach(cb=>cb())}export async function loadLocale(l:Lang){translations=allLocales[l]}
+export async function initLocale(){if(typeof window==='undefined')return;let l=(localStorage.getItem('lang')as Lang)||'ru';if(!localStorage.getItem('lang')){l=navigator.language.startsWith('en')?'en':'ru';localStorage.setItem('lang',l)}setLang(l)}
+export interface TFunction{(key:string):string;(key:string,options:{returnObjects:true}):TranslationObject;(key:string,options?:{returnObjects?:boolean}):string|TranslationObject}
+function tFn(key:string):string;function tFn(key:string,options:{returnObjects:true}):TranslationObject;function tFn(key:string,options?:{returnObjects?:boolean}):string|TranslationObject;
+function tFn(key:string,options?:{returnObjects?:boolean}):string|TranslationObject{const p=key.split('.');let v:unknown=translations;for(const k of p){if(v&&typeof v==='object'&&k in(v as Record<string,unknown>)){v=(v as Record<string,unknown>)[k]}else return key}if(options?.returnObjects&&v&&typeof v==='object')return v as TranslationObject;return(v&&typeof v==='object')?key:String(v??key)}
+export const t:TFunction=tFn;export {translations}
